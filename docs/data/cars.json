@@ -34,5 +34,17 @@
     "mileage": 68000,
     "description": "Учебное объявление. Кроссовер Hyundai Tucson поколения NX4. Цена и пробег вымышлены; фото иллюстрирует модель.",
     "photos": ["images/auto-003-1.jpg"]
+  },
+  {
+    "id": "auto-004",
+    "brand": "Toyota",
+    "model": "Toyota Camry",
+    "body": "Седан",
+    "generation": "XV70",
+    "year": 2018,
+    "price": 2400000,
+    "mileage": 55000,
+    "description": "Дополнительное учебное объявление. Цена и пробег вымышлены, фото иллюстрирует модель; заявки не принимаются.",
+    "photos": ["images/auto-004-1.jpg"]
   }
 ]

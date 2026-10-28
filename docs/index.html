@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Автокаталог — учебный каталог автомобилей</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="catalog">
+  <div class="notice">Учебный сайт. Цены, пробег и объявления вымышленные, фото иллюстрируют модели. Заявки не принимаются.</div>
+
+  <header class="site-header">
+    <div class="wrap header-row">
+      <a class="logo" href="index.html">Автокаталог</a>
+      <nav class="nav">
+        <a href="index.html" aria-current="page">Каталог</a>
+        <a href="sources.html">Источники фото</a>
+        <a class="btn btn-ghost" href="files/прайс.pdf" download>Скачать прайс (PDF)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h1>Автомобили с пробегом</h1>
+
+    <form class="filters" id="filters" aria-label="Фильтры">
+      <label>
+        <span>Марка</span>
+        <select id="f-brand">
+          <option value="">Все марки</option>
+        </select>
+      </label>
+      <label>
+        <span>Цена от, ₽</span>
+        <input id="f-min" type="number" min="0" step="50000" inputmode="numeric" placeholder="0">
+      </label>
+      <label>
+        <span>Цена до, ₽</span>
+        <input id="f-max" type="number" min="0" step="50000" inputmode="numeric" placeholder="без ограничения">
+      </label>
+      <button class="btn btn-ghost" type="reset">Сбросить</button>
+    </form>
+
+    <p class="count" id="count" aria-live="polite"></p>
+    <div class="grid" id="grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">Учебный проект «Автокаталог». <a href="sources.html">Авторы и лицензии фотографий</a>.</div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

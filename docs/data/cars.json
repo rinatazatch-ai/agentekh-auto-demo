@@ -1,0 +1,38 @@
+[
+  {
+    "id": "auto-001",
+    "brand": "Toyota",
+    "model": "Toyota Camry",
+    "body": "Седан",
+    "generation": "XV70",
+    "year": 2018,
+    "price": 2150000,
+    "mileage": 42000,
+    "description": "Учебное объявление. Седан Toyota Camry поколения XV70. Цена и пробег вымышлены; фото иллюстрирует модель.",
+    "photos": ["images/auto-001-1.jpg"]
+  },
+  {
+    "id": "auto-002",
+    "brand": "BMW",
+    "model": "BMW 320i Touring",
+    "body": "Универсал",
+    "generation": "G21",
+    "year": 2019,
+    "price": 2980000,
+    "mileage": 51000,
+    "description": "Учебное объявление. Универсал BMW 3 серии поколения G21. Цена и пробег вымышлены; фото иллюстрирует модель.",
+    "photos": ["images/auto-002-1.jpg"]
+  },
+  {
+    "id": "auto-003",
+    "brand": "Hyundai",
+    "model": "Hyundai Tucson",
+    "body": "Кроссовер",
+    "generation": "NX4",
+    "year": 2020,
+    "price": 2650000,
+    "mileage": 68000,
+    "description": "Учебное объявление. Кроссовер Hyundai Tucson поколения NX4. Цена и пробег вымышлены; фото иллюстрирует модель.",
+    "photos": ["images/auto-003-1.jpg"]
+  }
+]

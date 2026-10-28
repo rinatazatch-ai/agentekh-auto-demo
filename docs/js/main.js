@@ -97,6 +97,7 @@ async function initCar() {
   }
 
   document.title = car.model + ' — Автокаталог';
+  container.dataset.carId = car.id;
   container.innerHTML = `
     <figure class="car-photo">
       <img src="${escapeHtml(car.photos[0])}" alt="${escapeHtml(car.model)}, ${car.year}">

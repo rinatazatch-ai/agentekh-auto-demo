@@ -110,6 +110,7 @@ h1 { font-size: 28px; margin: 28px 0 16px; }
 .car-photo figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; }
 .car-info { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px; align-self: start; }
 .car-info .price { font-size: 30px; margin: 0 0 16px; }
+.car[data-car-id="auto-001"] .car-info .price { font-size: 34px; color: var(--accent); }
 .car-info p { color: var(--muted); }
 
 .specs { display: grid; grid-template-columns: max-content 1fr; gap: 8px 16px; margin: 0 0 16px; }
